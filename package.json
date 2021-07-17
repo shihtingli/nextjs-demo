@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+
   },
   "dependencies": {
     "date-fns": "^2.22.1",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@types/react": "17.0.11",
+    "cypress": "^7.7.0",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.0",
     "typescript": "4.3.4"
