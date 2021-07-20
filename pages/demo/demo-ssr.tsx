@@ -7,7 +7,8 @@ export default function demoSsr({ data }) {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>{data}</h1>
+      <h1 style={{ textAlign: 'center' }}>SSR DEMO</h1>
+      <h2>{data}</h2>
       <h2>
         <Link href="/">
           <a>Back to home</a>

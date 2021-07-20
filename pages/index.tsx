@@ -44,6 +44,29 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Demo</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <Link href={`/demo/demo-ssr`}>
+              <a>1. SSR</a>
+            </Link>
+            <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href={`/demo/demo-csr`}>
+              <a>2. CSR</a>
+            </Link>
+            <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href={`/demo/demo-swr`}>
+              <a>3. SWR</a>
+            </Link>
+            <br />
+          </li>
+        </ul>
+      </section>
     </Layout>
   )
 }

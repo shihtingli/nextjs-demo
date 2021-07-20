@@ -23,7 +23,8 @@ export default function DemoCsr({ data }) {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>{showDate}</h1>
+      <h1 style={{ textAlign: 'center' }}>CSR DEMO</h1>
+      <h2>{showDate}</h2>
       <h2>
         <Link href="/">
           <a>Back to home</a>
